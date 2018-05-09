@@ -34,12 +34,7 @@ namespace A
 
 
             services.AddMvc()
-                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
-                .AddRazorOptions(options =>
-                {
-                    options.FileProviders.Clear();
-                    options.FileProviders.Add(new PhysicalFileProvider("..\\B"));
-                });
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
