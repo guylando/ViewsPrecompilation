@@ -1,11 +1,82 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>net461</TargetFramework>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Ben.BlockingDetector" Version="0.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCaching" Version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.AspNetCore.Rewrite" Version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.0.0-rtm-30733" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" Version="1.0.0-rtm-30733" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Server.HttpSys">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions" version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.Extensions.Options" version="2.1.0-rtm-30733" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Https" version="2.1.0-rtm-30733">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Options">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="AspNet.Security.OAuth.LinkedIn">
+      <Version>2.0.0-rc2-final</Version>
+    </PackageReference>
+    <PackageReference Include="AspNet.Security.OAuth.Yahoo">
+      <Version>2.0.0-rc2-final</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="AutoMapper">
+      <Version>6.2.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console">
+      <Version>2.1.0-rtm-30733</Version>
+    </PackageReference>
 
     <ProjectReference Include="..\B\B.csproj" />
   </ItemGroup>
